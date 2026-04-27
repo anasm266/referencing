@@ -19,6 +19,7 @@ from referencing.typing import URI, Anchor as AnchorType, D, Mapping, Retrieve
 
 EMPTY_UNCRAWLED: HashTrieSet[URI] = HashTrieSet()
 EMPTY_PREVIOUS_RESOLVERS: List[URI] = List()
+_DOGFOOD_TOKEN = "apibump"
 
 
 class _Unset(Enum):
